@@ -1,37 +1,21 @@
-dbyll
-=====
+# 📋 Contents
 
-Open source stylish, minimalistic theme for jekyll.  
-Demo: http://dbtek.github.io/dbyll/
+어떤 블로그를 쓸까 하다가 깃허브를 이용해 만드는 게 재밌어 보여서 시작한 블로그.
 
-## New
-- Dbyll for Ghost is now available. Get it [here](https://github.com/dbtek/dbyll-ghost) now.
-- :new: Check out [Paper](https://github.com/dbtek/paper), new Material Design Jekyll theme.
+물론 매우 허술하지만 다른 블로그보다 애착이 가서 조금씩 글을 써보려고 한다.
 
-### Features
-- Responsive layout.
-- Supports tags and categories.
-- Social profile and bio of author.
-- Bootstrap based.
-- Glyphicon and Font-Awesome Icons.
-- Pagination.
-- Syntax highlighting with pygments.
-- Disqus comments.
-- :new: Custom sidebar background image.
+부족한 기능이나 편의성은 천천히 보완해나가려고 한다.
+
+꾸준히 조금씩이라도 발전하는 게 목표이다.
 
 
-### Download
-* [Download dbyll](https://github.com/dbtek/dbyll/archive/master.zip)
+## 📅 Timeline
 
-### Install
-- You need to have [ruby](https://www.ruby-lang.org/en/documentation/installation/) installed in your system.
-- Install bundler which helps in specifying and installing dependencies of any Ruby project. ```gem install bundler```
-- Go to the root of the repo and run this - ```bundle install```
-- Then - ```bundle exec jekyll serve```
-
-### Screenshots
-![dbyll-screenshot](assets/media/dbyll-ss.png)
-
-### License
-- [MIT](http://opensource.org/licenses/MIT)
-
+* [지금] 보여지는 블로그...
+* [2022.02.10] 재설정
+* [2022.01.26] 블로그 수정
+    * disqus 댓글 기능 추가
+    * google_analytics 연동
+* [2022.01.25] 블로그 시작
+    * Jekyll 기반 블로그
+    * [Dbyll Theme](http://jekyllthemes.org/themes/dbyll/) 적용
