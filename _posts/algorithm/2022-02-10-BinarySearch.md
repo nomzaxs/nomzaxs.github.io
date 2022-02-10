@@ -5,7 +5,6 @@ categories: [Algorithm]
 tags: [Algorithm, Java]
 description: Java로 구현한 Binary Search
 
-published: true
 comments: true
 
 toc: true
@@ -81,4 +80,3 @@ int binSearch(int key, int low, int high) {
 Binary Search의 시간 복잡도는 탐색을 반복 할 때마다 탐색 범위를 반으로 줄인다.
 
 n의 범위에서 k번 반복하게 된다면 n/2^k = 1이 되기에 k = log 2 n이 되므로 **<u>O(log n)</u>**이 된다.
-

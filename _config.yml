@@ -8,7 +8,6 @@ markdown: kramdown
 disqus: https-nomzaxs-github-io
 google_analytics: G-YBCZ1NTNFG
 title: moca
-future: true
 
 defaults:
   -
