@@ -46,11 +46,11 @@ int binSearch(int key, int low, int high) {
             return mid;
         } else if(key < arr[mid]){		// 왼쪽 부분 탐색
             high = mid - 1;
-        } else{							// 오른쪽 부분 탐색
+        } else{					// 오른쪽 부분 탐색
             low = mid + 1;
         }
 	}
-	return -1; 							// key가 array에 없을 시
+	return -1; 				// key가 array에 없을 시
 }
 ```
 
@@ -67,11 +67,11 @@ int binSearch(int key, int low, int high) {
 			return mid;
 		} else if(key < arr[mid]) {		// 왼쪽 부분 탐색 
 			return binarySearch1(key ,low, mid-1);
-		} else {						// 오른쪽 부분 탐색
+		} else {				// 오른쪽 부분 탐색
 			return binarySearch1(key, mid+1, high);
 		}
 	}
-	return -1; 							// key가 array에 없을 시
+	return -1; 					// key가 array에 없을 시
 }
 ```
 
