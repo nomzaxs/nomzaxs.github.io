@@ -39,6 +39,8 @@ Java를 처음 배울 때 Scanner를 먼저 배웠고 Scanner가 익숙하지만
 
 Java Standrd API는 여러 패키지로 구성되어 제공되는데 각 패키지는 다음과 같다.
 
+<br>
+
 |Java Package | 설명|
 |:-----:|:-------------:|
 |java.lang|프로그래밍의 기본적인 Class들을 제공 // import 호출하지 않아도 기본적으로 로딩됨|
@@ -64,6 +66,7 @@ Java Standrd API는 여러 패키지로 구성되어 제공되는데 각 패키�
 이와 달리 BufferedReader는 Buffer를 이용해 단순하게 데이터를 읽어 들이기 때문에 속도가 더 빠르다.
 
 Scanner와 BufferedReader의 차이점을 비교하면 다음과 같다.
+
 ​
 <br>
 
