@@ -15,7 +15,7 @@ toc_sticky: true
 
 Java를 처음 배울 때 Scanner를 먼저 배웠고 Scanner가 익숙하지만 좀 더 효율적인 코드를 작성하기 위해서 BufferReader를 사용해야 한다.
 
-<b>왜?</b>라는 생각에 동작 방식부터 알아봤고, 먼저 Oracle의 docs를 비교해 보면
+<b>왜?</b> 라는 생각에 동작 방식부터 알아봤고, 먼저 Oracle의 docs를 비교해 보면
 
 <br>
 
@@ -51,7 +51,22 @@ Java Standrd API는 여러 패키지로 구성되어 제공되는데 각 패키�
 
 <br>
 
-<b><u>Scanner</u></b>는 공란과 줄바꿈을 모두 입력값의 경계로 인식해 더 쉽게 데이터를 입력받을 수 있고, 데이터 타입을 입력받는 시점에서 결정되므로 별도의 Casting이 필요하지 않다는 편의성을 제공하기에 속도적인 측면에서 오래 걸린다는 단점이 있다.
+<b><u>Scanner</u></b>는 공란과 줄 바꿈을 모두 입력값의 경계로 인식해 더 쉽게 데이터를 입력받을 수 있고, 데이터 타입을 입력받는 시점에서 결정되므로 별도의 Casting이 필요하지 않다는 편의성을 제공하기에 속도적인 측면에서 오래 걸린다는 단점이 있다.
+
+<br>
+
+다음과 같이 선언해 사용한다.
+
+<br>
+
+```java
+import java.util.Scanner;         // import
+
+Scanner scan = new Scanner(System.in);
+
+String s = scan.next();        // 다음 토큰을 문자열로 입력
+int num = scan.nextInt();      // 다음 토큰을 int타입으로 입력
+```
 
 <br>
 
@@ -61,11 +76,25 @@ Java Standrd API는 여러 패키지로 구성되어 제공되는데 각 패키�
 
 <br>
 
-<b>즉</b>, Scanner는 편의성을 제공하지만 속도적인 측면에서 느리다는 큰 단점을 가지고 있다.
+다음과 같이 선언해 사용한다.
 
 <br>
 
-이와 달리 BufferedReader는 Buffer를 이용해 단순하게 데이터를 읽어 들이기 때문에 속도가 더 빠르다.
+```java
+import java.io.BufferedReader;    // import
+import java.io.InputStreamReader;
+
+BufferedReader br = new BufferedReader(new InputStramReader(System.in));
+
+String s = br.readLine();         // 한 줄을 입력
+int num = Integer.parseInt(br.readLine());  // int값을 받아오기 위해서 형변환이 필요하다.
+```
+
+<br>
+
+<b>즉</b>, Scanner는 편의성을 제공하지만 속도적인 측면에서 느리다는 단점을 가지고 있다.
+
+이와 달리 BufferedReader는 Buffer를 이용해 단순하게 데이터를 읽어 들이기 때문에 속도가 빠르지만, 데이터를 따로 가공해야 하므로 조금 번거롭다는 단점을 가지고 있다.
 
 Scanner와 BufferedReader의 차이점을 비교하면 다음과 같다.
 
