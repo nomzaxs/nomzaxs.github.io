@@ -57,17 +57,18 @@ Java Standrd API는 여러 패키지로 구성되어 제공되는데 각 패키�
 
 <b><u>BufferedReader</u></b>는 InputStreamReader의 한 글자 단위로 읽어오는 단점을 보완해 버퍼링 기능이 추가된 Class로 사용자의 요청마다 데이터를 읽어오는 것이 아닌 일정한 크기의 데이터를 한 번에 읽어와 버퍼에 보관한 후, 요청이 있을 때 버퍼에서 데이터를 읽어오는 방식이다.
 
-<br>
-
 그렇기에 속도가 빠르고 시간 부하가 적다.
 
+<br>
+
 <b>즉</b>, Scanner는 편의성을 제공하지만 속도적인 측면에서 느리다는 큰 단점을 가지고 있다.
+
+<br>
 
 이와 달리 BufferedReader는 Buffer를 이용해 단순하게 데이터를 읽어 들이기 때문에 속도가 더 빠르다.
 
 Scanner와 BufferedReader의 차이점을 비교하면 다음과 같다.
 
-​
 <br>
 
 ||Scanner|BufferedReader|
