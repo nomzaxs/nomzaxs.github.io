@@ -13,7 +13,8 @@
 
 * [지금] [보여지는 블로그...](https://nomzaxs.github.io/)
 * [2022.03.10] 댓글 기능 수정
-    * disqus 비활성화, utterances로 변경
+    * disqus 비활성화
+    * utterances로 댓글 
 * [2022.02.10] 재설정
 * [2022.01.26] 블로그 수정
     * disqus 댓글 기능 추가
