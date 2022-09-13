@@ -29,21 +29,31 @@ PEM 파일을 이용해 EC2 인스턴스에 접근하기 위해 개인키 파일
 
 먼저 puttygen을 실행한다.
 
-![image](../../img/putty_generator_1.png)
+<img
+    src="https://user-images.githubusercontent.com/84614785/189962834-97df0e8d-bd69-4e52-af2f-4235fd8b62b4.png"
+  />
 
 다음과 같이 Load 버튼을 누르고
 
-![image](../../img/putty_generator_2.png)
+<img
+    src="https://user-images.githubusercontent.com/84614785/189962958-6f82b2cf-9544-4c9a-bd25-aeacce4b716a.png"
+  />
 
 초기에 .ppk 파일만 보여주는데 모든 파일로 변경 후 .pem 파일을 불러온다.
 
-![image](../../img/putty_generator_3.png)
+<img
+    src="https://user-images.githubusercontent.com/84614785/189963019-238eb56c-336e-47c8-a014-a53d742fd6ce.png"
+  />
 
 다음과 같이 성공 메시지를 본다면 정상적으로 .pem 키를 가져왔다.
 
-![image](../../img/putty_generator_4.png)
+<img
+    src="https://user-images.githubusercontent.com/84614785/189963064-7eaf17ee-397a-44b9-bb39-aab4670a5c89.png"
+  />
 
-![image](../../img/putty_generator_5.png)
+<img
+    src="https://user-images.githubusercontent.com/84614785/189963072-00689500-ecb1-458d-a1c2-c0f6be28cd76.png"
+  />
 
 마지막으로 Save priavate key를 눌러 ppk 파일을 저장한다.
 
@@ -55,18 +65,26 @@ PEM 파일을 이용해 EC2 인스턴스에 접근하기 위해 개인키 파일
 
 <hr>
 
-![image](../../img/putty_configuration_1.png)
+<img
+    src="https://user-images.githubusercontent.com/84614785/189963199-7ffb9f2b-6ad5-4b79-a029-767fcb52cdcd.png"
+  />
 
 putty를 실행해 Host Name 또는 IP adress를 입력한다.
 
-![image](../../img/putty_configuration_2.png)
+<img
+    src="https://user-images.githubusercontent.com/84614785/189963200-646c4447-887d-4ddd-a721-ec6f7c4e5722.png"
+  />
 
 Connection-Data에 로그인 username을 설정해 줄 수 있다.
 
-![image](../../img/putty_configuration_3.png)
+<img
+    src="https://user-images.githubusercontent.com/84614785/189963202-3faf0f14-c049-40e5-8e67-96b279549a64.png"
+  />
 
 Connection-SSH-Auth에 puttygen을 이용해 저장한 ppk 파일을 가져와 접속한다.
 
-![image](../../img/putty_1.png)
+<img
+    src="https://user-images.githubusercontent.com/84614785/189963205-11f06adf-a75b-4b42-b37d-724940bccd52.png"
+  />
 
 그럼 다음과 같이 정상적으로 접속된 모습을 확인할 수 있다.
